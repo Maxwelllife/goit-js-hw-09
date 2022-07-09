@@ -3,6 +3,7 @@ const refs = {
   stop: document.querySelector('[data-stop]'),
   bodyStyle: document.body.style,
 };
+const timeoutId = null;
 refs.start.addEventListener('click', onStartBtnClick);
 refs.stop.addEventListener('click', onStopBtnClick);
 
